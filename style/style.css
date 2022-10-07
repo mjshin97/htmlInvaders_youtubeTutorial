@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    font-family: impact, charcoal, sans-serif;
+    color: white;
+}
+
+#playWindow {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#playArea{
+    position: relative;
+    width: 720px;
+    height: 576px;
+    border: solid green 2px;
+}
+
+#scoreContainer{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-align: left;
+    font-size: 1.5;
+    z-index: 30;
+}
+
+.score {/*줄 간격*/
+    padding: 10px;
+}
+
+.sprite {
+    background-image: url("../assets/playerShip1_blue.png");
+    width: 49px;
+    height: 37px;
+    top: 400px;
+    left: 360px;
+    position: absolute;
+    z-index: 10;
+}
